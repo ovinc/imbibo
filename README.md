@@ -25,6 +25,8 @@ pytest
 Quick Start
 ===========
 ```python
+from imbibo import Water, PorousMedium, PoreLiquid
+
 water = Water(temperature=25)
 
 porous_silicon = PorousMedium(
