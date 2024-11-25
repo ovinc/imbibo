@@ -2,8 +2,7 @@
 
 from importlib_metadata import version
 
-from .logging import Logger
-from .misc import User, Project, Component, Setup
+from .general import Temperature, Water, PorousMedium, PoreLiquid
 
 __author__ = "Olivier Vincent"
 __version__ = version("imbibo")

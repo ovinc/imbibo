@@ -51,7 +51,8 @@ class PorousMedium:
     tortuosity: float
 
 
-class Imbibition:
+class PoreLiquid:
+    """Class to describe the dynamics of a liquid in a porous medium"""
 
     def __init__(
         self,
