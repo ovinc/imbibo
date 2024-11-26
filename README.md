@@ -25,7 +25,8 @@ pytest
 Quick Start
 ===========
 ```python
-from imbibo import Water, PorousMedium, PoreLiquid
+from imbibo import Water, Liquid
+from imbibo import PorousMedium, PoreLiquid
 
 water = Water(temperature=25)
 
@@ -39,7 +40,7 @@ pore_liquid = PoreLiquid(
     liquid=water,
     porous_medium=porous_silicon,
     contact_angle=25,
-    slip_length=-0.31e-9,
+    radius_corr_hydraulic=-0.31e-9,
 )
 
 pore_liquid.capillary_pressure    # [Pa]
